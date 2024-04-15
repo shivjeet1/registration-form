@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registration Form</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <form id="registration-form" action="mailto:shivamlavhalepatil@gmail.com" method="post" enctype="text/plain">
+    <h2>Registration Form</h2>
+
+    <label for="full_name">Name:</label><br>
+    <div class="name"><input class="fname" type="text" id="full_name" name="full_name" placeholder="First Name" autofocus required><input class="mname"type="text" id="full_name" name="full_name" placeholder="Middle Name" autofocus required><input class="lname" type="text" id="full_name" name="full_name" placeholder="Last Name" autofocus required></div>
+
+    <label for="">Date of Birth:</label><br>
+    <input type="date" id="date" name="date" required><br><br>
+
+    <label for="Address">Address:</label><br>
+    <textarea name="Address" id="" cols="30" rows="10"></textarea>
+
+    <label for="Contact">Contact:</label><br>
+    <input type="tel" placeholder="xxxxxxxxxx" maxlength="10"><br><br>
+
+    <label for="email_addr">Email address:</label><br>
+    <input type="email" id="email_addr" name="email_addr" placeholder="xyz@xyz.com" required><br><br>
+
+    <label>Aadhar:</label><br>
+    <input type="tel" placeholder="xxxxxxxxxxxx" maxlength="12" ><br><br>
+
+    <div class="buttons"><button type="submit"><a href="thank-you.html">Register</a></button><button type="reset" >Reset</button></div>
+    </form>
+
+</body>
+</html>
